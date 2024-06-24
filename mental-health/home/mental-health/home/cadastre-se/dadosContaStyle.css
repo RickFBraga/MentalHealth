@@ -1,0 +1,115 @@
+body {
+    background-color: #3E5FE6;
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.tittle-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    background-color: #3E5FE6;
+    box-shadow: 6px 6px 6px  #1C2B67;
+    height: 4rem;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+nav {
+    margin-top: 50px;
+    background-color: #ffffff;
+    width: 60%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 8px;
+    box-shadow: 7px 7px 7px #1C2B67;
+
+    a {
+        text-decoration: none;
+        margin-left: 10px;
+        color: black;
+        font-family: Montserrat, sans-serif
+    }
+}
+
+a:hover {
+    color: #3E5FE6;
+    font-weight: bold;
+}
+
+.home-icon:hover {
+    transform: scale(1.1)
+}
+
+.search-icon:hover {
+    transform: scale(1.1)
+}
+
+.search-icon {
+    cursor: pointer;
+ }
+ 
+ .home-icon {
+     cursor: pointer;
+  }
+
+  .search-icon-position {
+    margin-left: auto;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem
+}
+
+.dadosConta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 8px;
+    width: 720px;
+    height: 400px;
+    background-color: #ffffff;
+    box-shadow: 6px 6px 6px #1C2B67;
+
+    p {
+        font-family: Montserrat, sans-serif;
+        font-size: 1.10rem;
+        margin-right: 10px;
+        font-weight: 600;
+    }
+
+    h1 {
+        color: white;
+        font-weight: normal;
+        font-family: Montserrat, sans-serif
+    }
+}
+
+
+.divDados {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.divDados span {
+    font-size: 1.10rem;
+    font-weight: 400;
+}

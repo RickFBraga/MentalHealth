@@ -1,0 +1,146 @@
+body {
+    background-color: #3E5FE6;
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+
+    h1 {
+        background-color: #E6BA3E;
+        padding: 16px;
+        border-radius: 6px;
+        color: white;
+    }
+
+    label, input, select {
+        font-size: 1.05rem;
+        margin-right: 5px;
+        font-weight: bold;
+    }
+}
+
+input, select {
+    border-radius: 4px;
+    height: 2rem;
+    border: 1px solid gray;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+nav {
+    margin-top: 35px;
+    background-color: #ffffff;
+    width: 65%;
+    height: 4.30rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 8px;
+    box-shadow: 7px 7px 7px  #1C2B67;
+
+    a {
+        text-decoration: none;
+        margin-left: 10px;
+        color: black;
+        font-family: Poppins, sans-serif
+    }
+}
+
+a:hover {
+    color: #3E5FE6;
+    font-weight: bold;
+}
+
+.home-icon:hover {
+    transform: scale(1.1)
+}
+
+.search-icon:hover {
+    transform: scale(1.1)
+}
+
+.search-icon {
+    cursor: pointer;
+ }
+ 
+ .home-icon {
+     cursor: pointer;
+  }
+
+  .account-icon {
+    margin-right: 10px;
+    height: 17px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .account-icon:hover {
+    transform: scale(1.1)
+}
+
+  .search-icon-position {
+    margin-left: auto;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    width: 60rem;
+    height: 40rem;
+    background-color: #FFF;
+    box-shadow: 7px 7px 7px #1C2B67;
+    border-radius: 8px;
+}
+
+.consultas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 14rem;
+    width: 300px;
+    background-color: #EEE;
+    box-shadow: 3px 3px 10px gray;
+    font-size: 1.25rem;
+    /* font-weight: bold; */
+}
+
+button {
+    margin-top: 20px;
+    background-color: #ffffff;
+    border: none; 
+    border-radius: 7px;
+    height: 2.50rem;
+    width: 20rem;
+    cursor: pointer;
+    font-weight: bold;
+    background-color:#3E5FE6;
+    font-size: 1rem;
+    color: white;
+}
+
+button:hover {
+    background-color: #1C2B67
+}
+
+.button-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
